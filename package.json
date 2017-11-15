@@ -1,0 +1,29 @@
+{
+  "name": "burgers",
+  "version": "1.0.0",
+  "description": "eat burgers with handlebars",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abishr12/burgers.git"
+  },
+  "keywords": [
+    "handlebars"
+  ],
+  "author": "adham bishr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abishr12/burgers/issues"
+  },
+  "homepage": "https://github.com/abishr12/burgers#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.10",
+    "mysql": "^2.15.0"
+  }
+}
