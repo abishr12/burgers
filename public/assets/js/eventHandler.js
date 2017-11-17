@@ -13,18 +13,19 @@ $(document).ready(function() {
     });
   });
 
-  //   var newSleepState = {
-  //     sleepy: newSleep
-  //   };
-  //
-  //   // Send the PUT request.
-  //   $.ajax("/api/cats/" + id, {
-  //     type: "PUT",
-  //     data: newSleepState
-  //   }).then(function() {
-  //     console.log("changed sleep to", newSleep);
-  //     // Reload the page to get the updated list
-  //     location.reload();
-  //   });
-  // });
+  $("#submit").on("click", function(event) {
+    event.preventDefault();
+
+    var name = $("#burger")
+      .val()
+      .trim();
+
+    var newBurger = {
+      burger_name: name
+    };
+    $.post("/api/addburgers", newBurger).done(function(data) {
+      console.log(data);
+      location.reload();
+    });
+  });
 });
