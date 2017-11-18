@@ -4,15 +4,13 @@
   "description": "eat burgers with handlebars",
   "main": "server.js",
   "scripts": {
-    "test": "nodemon server.js"
+    "test": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/abishr12/burgers.git"
   },
-  "keywords": [
-    "handlebars"
-  ],
+  "keywords": ["handlebars"],
   "author": "adham bishr",
   "license": "ISC",
   "bugs": {
