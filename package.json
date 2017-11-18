@@ -4,7 +4,7 @@
   "description": "eat burgers with handlebars",
   "main": "server.js",
   "scripts": {
-    "test": "node server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
